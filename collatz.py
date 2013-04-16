@@ -25,6 +25,7 @@ def findMax(minScope, maxScope):
 
     for num in range(minScope, maxScope):
         tmpLen = collatz(num)
+
         if tmpLen > maxSeqLen:
             maxSeqLen = tmpLen
             maxSeqNum = num
